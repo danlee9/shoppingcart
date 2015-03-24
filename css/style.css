@@ -1,0 +1,105 @@
+body {
+	background-color: lightblue;
+}
+header, section {
+	width: 60%;
+	margin: 0 auto;
+	overflow: auto;
+}
+header {
+	background-color: indianred;
+	height: 10em;
+}
+section {
+	background-color: #3d76a6;
+	padding-bottom: 1em;
+}
+main {
+	background-color: dodgerblue;
+	width: 80%;
+	margin: 2em auto;
+	height: 10em;
+	border-radius: 1em;
+	color: white;
+	text-align: center;
+}
+h1 {
+	font-size: 2em;
+	padding-top: 0.5em;
+}
+#logo {
+	width: 7em;
+	border-radius: 1em;
+	background-color: #313385;
+	margin: 2.5em auto;
+}
+img {
+	display: block;
+	width: 5em;
+	margin: 0 auto;
+}
+input {
+	display: block;
+	margin: 0.5em auto;
+	width: 20em;
+	border-radius: 0.5em;
+	padding: 0.5em;
+	padding-left: 0.8em;
+	font-size: 1em;
+	/*background-color: #909090;
+	color: white;*/
+}
+h3 {
+	font-size: 1.5em;
+	margin-top: 0.5em;
+}
+.item {
+	background-color: lightsalmon;
+	width: 25em;
+	margin: 0.7em auto;
+	font-size: 1.5em;
+	border-radius: 2em;
+	color: white;
+	padding: 0.4em;
+	text-align: center;
+}
+.delete, .check {
+	width: 1.2em;
+	height: 1.2em;
+	border-radius: 0.4em;
+	position: relative;
+	bottom: 0.1em;
+}
+.delete {
+	float: left;
+	background: url('../images/xmark.png');
+}
+.check {
+	float: right;
+	background: url('../images/checkmark.png');
+}
+.finished {
+	text-decoration: line-through;
+}
+
+
+@media only screen and (max-width: 1200px) {
+	input {
+		width: 13.5em;
+	}
+	.item {
+		width: 15em;
+	}
+}
+
+@media only screen and (max-width: 700px) {
+	header, section {
+		width: 100%;
+	}
+	input {
+		width: 10em;
+	}
+	.item {
+		width: 12em;
+	}
+}
