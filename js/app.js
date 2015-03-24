@@ -7,9 +7,13 @@ $(document).ready(function() {
 			$('section').append(listItem);
 			$('input').val('');
 		}
-	})
+	});
 	$('section').on('click', '.check', function(e) {
 		var $parent = $(this).parent();
 		$parent.toggleClass("finished");
-	})
+	});
+	$('section').on('click', '.delete', function(e) {
+		var $parent = $(this).parent();
+		$parent.remove();
+	});
 })
