@@ -80,6 +80,8 @@ h3 {
 }
 .finished {
 	text-decoration: line-through;
+	font-style: italic;
+	color: #909090;
 }
 
 

@@ -5,6 +5,11 @@ $(document).ready(function() {
 			var listItem = '<div class="item"><span class="delete"></span>' 
 			+ item + '<span class="check"></span></div>';
 			$('section').append(listItem);
+			$('input').val('');
 		}
+	})
+	$('section').on('click', '.check', function(e) {
+		var $parent = $(this).parent();
+		$parent.toggleClass("finished");
 	})
 })
