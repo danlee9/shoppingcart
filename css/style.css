@@ -72,11 +72,11 @@ h3 {
 }
 .delete {
 	float: left;
-	background: url('../images/xmark.png');
+	background: url('../images/xmark.PNG');
 }
 .check {
 	float: right;
-	background: url('../images/checkmark.png');
+	background: url('../images/checkmark.PNG');
 }
 .finished {
 	text-decoration: line-through;
